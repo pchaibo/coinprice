@@ -1,16 +1,13 @@
 module coinapi
 
-go 1.14
-
-require github.com/beego/beego/v2 v2.0.1
+go 1.18
 
 require (
-	github.com/garyburd/redigo v1.6.3
-	github.com/go-sql-driver/mysql v1.5.0
-	github.com/gorilla/websocket v1.4.2
-	github.com/jmoiron/sqlx v1.3.4
-	github.com/smartystreets/goconvey v1.6.4
-	github.com/tidwall/gjson v1.12.1
-	golang.org/x/net v0.0.0-20201021035429-f5854403a974
-	gopkg.in/ini.v1 v1.66.2
+	github.com/garyburd/redigo v1.6.3 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
+	github.com/tidwall/gjson v1.14.1 // indirect
+	github.com/tidwall/match v1.1.1 // indirect
+	github.com/tidwall/pretty v1.2.0 // indirect
+	golang.org/x/net v0.0.0-20220708220712-1185a9018129 // indirect
+	gopkg.in/ini.v1 v1.66.6 // indirect
 )

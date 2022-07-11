@@ -6,7 +6,7 @@
 
 要求安装 redis 采集价格存放redis
 
-# my.ini 为配置文件
+## my.ini 为配置文件
 
 coinname 为币类别 每个后面加上@miniTicker
 

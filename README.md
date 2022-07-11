@@ -12,13 +12,18 @@ proxyid = 1 设置代理(使用本地127.0.0.1:1080端口国内使用)
 
 proxyid = 5 直接连接币安websocket在服务器上使用
 ## 编译
-使用包:gjson gorilla/websocket ini.v1 proxy redis
 加载此包：
+
  go get github.com/garyburd/redigo/redis 
+
  go get github.com/gorilla/websocket 
+
  go get github.com/tidwall/gjson
+
  go get golang.org/x/net/proxy
+
  go get gopkg.in/ini.v1 
+ 
 编译文件： go build demo.go
 
 ## 运行

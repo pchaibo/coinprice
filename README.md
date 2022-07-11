@@ -3,8 +3,8 @@
 demo.go
 
 币安socket价格
-要求安装 redis
-socket采集存放redis
+
+要求安装 redis 采集价格存放redis
  
 编译文件： go build demo.go
 

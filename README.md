@@ -1,8 +1,6 @@
 ## coinprice
 
-demo.go
-
-币安socket价格
+使用golang websocket采集币安时实价格
 
 要求安装 redis 采集价格存放redis
 

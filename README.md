@@ -2,11 +2,17 @@
 
 使用golang websocket采集币安时实价格
 
+使用包:gjson gorilla/websocket ini.v1 proxy redis 编译前go get * 加载此包
+
 要求安装 redis 采集价格存放redis
 
-demo.go 设置是否代理在45行
+# my.ini 为配置文件
 
-id := 1: 1代理(使用本地127.0.0.1:1080端口国内使用) 5：直接连接币安websocket在服务器上使用
+coinname 为币类别 每个后面加上@miniTicker
+
+proxyid = 1 设置代理(使用本地127.0.0.1:1080端口国内使用)
+
+proxyid = 5 直接连接币安websocket在服务器上使用
 
 编译文件： go build demo.go
 

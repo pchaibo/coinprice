@@ -41,8 +41,9 @@ func init() {
 func main() {
 	cfg, _ := ini.Load("my.ini")
 	coinname = cfg.Section("").Key("coinname").String() //取配置文件
+	proxyid := cfg.Section("").Key("proxyid").MustInt()
 	//go Limit()                                          //定时处理
-	id := 1 //1代理 5直连接
+	id := proxyid //1代理 5直连接
 	go apisocket(id)
 	for {
 		<-ch                        //通道取数据

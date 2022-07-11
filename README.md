@@ -8,7 +8,7 @@
 
 ## my.ini 为配置文件
 
-coinname 为币类别 每个后面加上@miniTicker
+coinname 为币类别 每个用/分隔后面加上@miniTicker
 
 proxyid = 1 设置代理(使用本地127.0.0.1:1080端口国内使用)
 

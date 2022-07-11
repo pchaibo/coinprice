@@ -1,5 +1,9 @@
 ## coinprice
-
+<p align="center">
+  <img width="800" src="https://github.com/pchaibo/coinprice/blob/master/images/b.png">
+  <img width="800" src="https://github.com/pchaibo/coinprice/blob/master/images/red.png">
+  
+</p>
 使用golang websocket采集币安时实价格
 
 要求安装 redis 采集价格存放redis
@@ -23,7 +27,7 @@ proxyid = 5 直接连接币安websocket在服务器上使用
  go get golang.org/x/net/proxy
 
  go get gopkg.in/ini.v1 
- 
+
 编译文件： go build demo.go
 
 ## 运行
